@@ -1,0 +1,53 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+.navbar-brand {
+  margin-top: 2em;
+  margin-left: 2em;
+  float: left;
+}
+#timer {
+  text-align: left;
+  font: normal normal 600 20px/24px "Montserrat";
+  letter-spacing: 11px;
+  margin-top: 2.5em;
+  margin-right: 2em;
+  float: right;
+}
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.title {
+  text-align: center;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  color: #1d1d1d;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-size: normal normal medium 19px/23px;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  color: #4b4b4b;
+}
