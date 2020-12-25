@@ -5,7 +5,7 @@ body {
 .navbar-brand {
   margin-top: 2em;
   margin-left: 2em;
-  float: left;
+  /* float: left; */
 }
 #timer {
   text-align: left;
@@ -13,9 +13,11 @@ body {
   letter-spacing: 11px;
   margin-top: 2.5em;
   margin-right: 2em;
-  float: right;
+  /* float: right; */
 }
 .animated {
+  height: 50vh;
+  width: 50vh;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @-webkit-keyframes up-down {
@@ -43,11 +45,29 @@ body {
   letter-spacing: 0px;
   color: #1d1d1d;
   font-weight: bold;
+  font-size: 3em;
+  line-height: 1em;
 }
-p {
+.subtitle {
   text-align: center;
-  font-size: normal normal medium 19px/23px;
+  font-size: 1em;
   font-family: "Montserrat";
   letter-spacing: 0px;
   color: #4b4b4b;
+}
+
+@media only screen and (max-width: 768px) {
+  #timer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar-brand {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .subtitle {
+    font-size: 0.8em;
+  }
 }
