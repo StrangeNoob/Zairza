@@ -1,11 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .navbar-brand {
   margin-top: 2em;
   margin-left: 2em;
-  /* float: left; */
 }
 #timer {
   text-align: left;
@@ -13,7 +14,7 @@ body {
   letter-spacing: 11px;
   margin-top: 2.5em;
   margin-right: 2em;
-  /* float: right; */
+  font-size: 12px;
 }
 .animated {
   height: 50vh;
@@ -46,7 +47,7 @@ body {
   color: #1d1d1d;
   font-weight: bold;
   font-size: 3em;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 .subtitle {
   text-align: center;
@@ -74,11 +75,11 @@ body {
     margin-left: 0;
   }
   .title {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: 5rem;
   }
   .subtitle {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
   .main-col{
     height: 70vh;
