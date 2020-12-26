@@ -61,8 +61,11 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-  .navbar-brand {
+  .navbar {
     flex-direction: column;
+  }
+  .navbar-brand{
+    margin-left: 0;
   }
   .title {
     font-size: 2em;
