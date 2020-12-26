@@ -60,11 +60,17 @@ body {
   #timer {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0;
   }
   .navbar {
     flex-direction: column;
   }
+  .animated{
+    height: 30vh !important;
+    margin-top: 5rem;
+  }
   .navbar-brand{
+    margin-top:0;
     margin-left: 0;
   }
   .title {
@@ -72,5 +78,8 @@ body {
   }
   .subtitle {
     font-size: 0.8em;
+  }
+  .main-col{
+    height: 70vh;
   }
 }

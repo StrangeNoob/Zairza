@@ -16,6 +16,10 @@ function updateTimer() {
    m=0;
    s=0; 
   }
+  if (d < 10) d = "0" + d;
+  if (h < 10) h = "0" + h;
+  if (m < 10) m = "0" + m;
+  if (s < 10) s = "0" + s;
   document.getElementById("timer")
     .innerHTML =
       '<div>' + d + ':' + h +  ':' + m + ':' + s + '</div>' ;
