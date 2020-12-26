@@ -14,7 +14,6 @@ body {
   letter-spacing: 11px;
   margin-top: 2.5em;
   margin-right: 2em;
-  font-size: 12px;
 }
 .animated {
   height: 50vh;
@@ -62,6 +61,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 1em;
+    font-size: 12px;
   }
   .navbar {
     flex-direction: column;
